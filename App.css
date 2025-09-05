@@ -1,0 +1,54 @@
+.display-screen {
+  width: 60%;
+  margin: 30px auto;              
+  padding: 20px;
+  display: flex;
+  flex-direction: column;        
+  align-items: center;
+  background-color: #f0f8ff;      
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.count-display {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;            
+  justify-content: space-around;  
+}
+
+.button button {
+  flex: 1;
+  margin: 0 10px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button button:nth-child(1) {
+  background-color: #4CAF50; 
+  color: white;
+}
+.button button:nth-child(2) {
+  background-color: #2196F3; 
+  color: white;
+}
+.button button:nth-child(3) {
+  background-color: #f44336; 
+  color: white;
+}
+
+.button button:hover {
+  opacity: 0.8;
+}
